@@ -71,8 +71,7 @@ class Page2 extends React.Component {
                   <div className="card-box inner-box" style={{minHeight: 800}}>
 
                     <div className="row page-header">
-                        <span className="page-title"> List all streams </span>
-                        <a href="/#" onClick={this.newStream.bind(this)} className="btn btn-primary pull-right btn-bordred btn-rounded waves-effect waves-light p-lr-35"> New stream </a>
+                        <span className="page-title"> Page 2 Table </span>
                     </div>
 
                     <table className="table-responsive table table-hover">
