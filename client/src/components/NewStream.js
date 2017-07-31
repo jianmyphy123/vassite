@@ -1,6 +1,21 @@
 import React from 'react';
 
 class NewStream extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+
+    document.title = "New Stream";
+  }
+
+  onCancel(e) {
+    e.preventDefault();
+
+    this.props.history.push('/page1');
+  }
+
   render() {
     return (
       <div className="content-page">
@@ -13,7 +28,7 @@ class NewStream extends React.Component {
 
                     <div className="row page-header">
                         <span className="page-title"> New Stream </span>
-                        <a href="main.html" className="btn btn-primary pull-right btn-bordred btn-rounded waves-effect waves-light p-lr-35"> Cancel </a>
+                        <a href="/#" onClick={this.onCancel.bind(this)} className="btn btn-primary pull-right btn-bordred btn-rounded waves-effect waves-light p-lr-35"> Cancel </a>
                     </div>
 
                     <table className="table-responsive table table-hover">

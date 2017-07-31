@@ -47,7 +47,7 @@ class SidebarMenu extends React.Component {
       >
         <SideNav
             highlightBgColor="#eee"
-            defaultSelected="page1"
+            
             highlightColor="#E91E63"
         >
 

@@ -1,0 +1,20 @@
+[
+  {
+    "stream": "Send nighty partner report to client with blablabla blablabla blablabla",
+    "files": 342,
+    "Date": "03:53 pm - 03/15/2016",
+    "errors": "None"
+  },
+  {
+    "stream": "Receive hourly targeting data from Walm blablabla blablabla blablabla",
+    "files": 12438,
+    "Date": "03:53 pm - 03/15/2016",
+    "errors": "None"
+  },
+  {
+    "stream": "Weekly Salesforce forecast data",
+    "files": 0,
+    "Date": "03:53 pm - 03/15/2016",
+    "errors": "3"
+  }
+]

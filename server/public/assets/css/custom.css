@@ -1,0 +1,119 @@
+tbody {
+  color: #000;
+  font-family: 'Arial', 'PT Sans Caption', sans-serif;
+  font-size: 18px;
+}
+
+.content-page > .content {
+    margin-top: 0px;
+}
+.side-menu.left {
+    top: 0;
+}
+#sidebar-menu > ul > li > a > span {
+  font-size: 16px;
+}
+#sidebar-menu > ul > li > a > i {
+  font-size: 24px;
+}
+
+.logo {
+    color: #337ab7 !important;
+    font-family: 'Helvetica';
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: .02em;
+    line-height: 70px;
+    padding-left: 25px; padding-right: 25px;
+}
+#wrapper.enlarged .logo span {
+    display: none;
+    opacity: 0;
+}
+.logo i {
+  color: #80898e;
+  background-color: #fcfcfc;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 2px;
+}
+
+.page-header {
+    padding: 12px 24px;
+    margin: 0;
+    border: 0;
+}
+.page-title {
+    font-size: 20px;
+    top: 6px;
+    position: relative;
+}
+
+.inner-box {
+  position: relative;
+  padding: 0 0 50px;
+}
+.table > thead > tr > th {
+  color: #80898e;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: 2px solid #f3f3f3 !important;
+  border-bottom: 2px solid #f3f3f3 !important;
+}
+.table > tbody > tr > td:first-child,
+.table > tbody > tr > th:first-child,
+.table > tfoot > tr > td:first-child,
+.table > tfoot > tr > th:first-child,
+.table > thead > tr > td:first-child,
+.table > thead > tr > th:first-child {
+  padding-left: 24px;
+}
+.table > tbody > tr > td:last-child,
+.table > tbody > tr > th:last-child,
+.table > tfoot > tr > td:last-child,
+.table > tfoot > tr > th:last-child,
+.table > thead > tr > td:last-child,
+.table > thead > tr > th:last-child {
+  /* padding-right: 24px; */
+}
+.table > tbody > tr > td.files,
+.table > tbody > tr > th.files,
+.table > tfoot > tr > td.files,
+.table > tfoot > tr > th.files,
+.table > thead > tr > td.files,
+.table > thead > tr > th.files {
+  width: 20px; text-align: right;
+}
+
+.table > tbody > tr > td.stream,
+.table > tbody > tr > th.stream,
+.table > tfoot > tr > td.stream,
+.table > tfoot > tr > th.stream,
+.table > thead > tr > td.stream,
+.table > thead > tr > th.stream {
+  max-width: 350px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+}
+
+.text-ellipsis {
+  max-width: 350px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+}
+
+.p-lr-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
